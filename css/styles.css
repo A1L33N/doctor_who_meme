@@ -1,0 +1,30 @@
+body {
+  color: white;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+
+}
+
+.meme-image {
+  position: relative;
+  background-image: url("../images/david_tennant_doctor_who.jpg");
+  width: 900px;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.left {
+  position: absolute;
+  left: 33%;
+  text-shadow: 3px 3px black;
+}
+
+.right {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 50px;
+  text-shadow: 3px 3px black;
+}
